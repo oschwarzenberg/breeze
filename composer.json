@@ -4,8 +4,8 @@
     "keywords": ["laravel", "auth"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/oschwarzenberg/breeze/issues",
-        "source": "https://github.com/oschwarzenberg/breeze"
+        "issues": "https://github.com/oschwarzenberg/fresh-breeze/issues",
+        "source": "https://github.com/oschwarzenberg/fresh-breeze"
     },
     "authors": [
         {
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Laravel\\Fresh-Breeze\\": "src/"
+            "oschwarzenberg\\Fresh-Breeze\\": "src/"
         }
     },
     "extra": {
@@ -29,7 +29,7 @@
         },
         "laravel": {
             "providers": [
-                "Laravel\\Breeze\\Fresh-BreezeServiceProvider"
+                "oschwarzenberg\\Breeze\\Fresh-BreezeServiceProvider"
             ]
         }
     },
